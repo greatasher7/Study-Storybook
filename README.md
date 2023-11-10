@@ -1,21 +1,11 @@
-<h1>Next.js Latest (Webpack | TypeScript)</h1>
+<h1>Storybook study</h1>
+
+<ul>
+  <li>nextjs v14.0.1</li>
+  <li>react v18</li>
+  <li>storybook 7.6.0-alpha.4</li>
+</ul>
 
 <p>
-  This is project generated to serve as a reproduction starter for Storybook.
+  docs: https://storybook.js.org/docs/react/get-started/why-storybook
 </p>
-
-<a  href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/nextjs/default-ts/after-storybook?preset=node=">
-  View it in Stackblitz
-</a>
-
-<h3>Testing instructions</h3>
-
-<p>Install dependencies:</p>
-<pre>
-  yarn
-</pre>
-
-<p>Run Storybook:</p>
-<pre>
-  yarn storybook
-</pre>
