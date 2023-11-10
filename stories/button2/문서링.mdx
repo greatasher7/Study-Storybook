@@ -1,0 +1,74 @@
+import * as Button2Stories from "./Button2.stories";
+import * as HeaderStories from "../header/Header.stories";
+import {
+  Meta,
+  Title,
+  Subtitle,
+  Description,
+  Primary,
+  Controls,
+  Story,
+  Canvas,
+  Source,
+} from "@storybook/blocks";
+
+<Meta of={Button2Stories} />
+
+# Button
+
+<p class="customClass">A button is Super Button</p>
+
+<Primary />
+
+## Props
+
+Props 입니다.🍭
+
+<Controls />
+
+## Stories
+
+Story 입니다.🍿
+
+### Primary
+
+primary 버튼이오
+
+<Canvas>
+  <Story of={Button2Stories.Primary} />
+</Canvas>
+
+### Secondary
+
+Secondary 버튼이오
+
+<Canvas>
+  <Story of={Button2Stories.Secondary} />
+</Canvas>
+
+### Large
+
+Large 버튼이오
+
+<Canvas of={Button2Stories.Large} />
+
+### Header
+
+Header 입니다
+
+<Canvas>
+  <Story of={HeaderStories.LoggedIn} />
+</Canvas>
+
+<br />
+<br />
+
+<img src="https://i.ytimg.com/vi/GLoeAJUcz38/maxresdefault.jpg" />
+
+<style>
+  {`
+        .customClass{
+            color: red            
+        }
+    `}
+</style>
